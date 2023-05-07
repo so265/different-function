@@ -55,4 +55,4 @@ let colorP = document.getElementById("functions")  //autre façon /let colorP = 
 colorP.style.fontStyle = 'italic'
 console.log(colorP);
 colorP.style.color = 'blue';
-colorP.style.fontSize = '30px'// Font-size à 13px
+colorP.style.fontSize = '30px'// Font-size à 30px
