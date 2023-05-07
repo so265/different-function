@@ -47,3 +47,12 @@ return compteur; //pour que l'ajout de 1 au compteur se réalise il faut mettre 
 let compteur = 1; //Je créé une  variable avec let car modifiable
 compteur = plus(compteur); //Je reprends ma variable let compteur qui est = à ma fonction plus compteur
 console.log(compteur);
+
+///////////////////////Change style////////////////////
+
+
+let colorP = document.getElementById("functions")  //autre façon /let colorP = document.getElementById("functions").style.color='pink';
+colorP.style.fontStyle = 'italic'
+console.log(colorP);
+colorP.style.color = 'blue';
+colorP.style.fontSize = '30px'// Font-size à 13px
